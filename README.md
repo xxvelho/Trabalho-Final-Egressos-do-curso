@@ -14,12 +14,15 @@ O sistema desenvolvido deve ter as seguintes funcionalidades mínimas:
 2. Permitir que o coordenador crie e gerencie um curso
 3. O sistema deve realizar o login/logout dos usuários coordenador e administrador
 4. O coordenador ainda poderá:
-4. a) Cadastrar e editar egresso e todas as informações ao redor deste
-4. b) Consultar egresso por nome e/ou cpf, e ainda listar qualquer informação cadastrada ao redor deste
-4. c) Gerar relatórios (impressos na tela):
-    Listagem de egressos por ano, ordenado pelo nome do egresso: [Egressos (nome), Data conclusão do curso] -> permitir filtrar por ano. Ex: 2020
+    a) Cadastrar e editar egresso e todas as informações ao redor deste
+    b) Consultar egresso por nome e/ou cpf, e ainda listar qualquer informação cadastrada ao redor deste
+    c) Gerar relatórios (impressos na tela):
+    Listagem de egressos por ano, ordenado pelo nome do egresso: [Egressos (nome), Data conclusão do curso] -> permitir filtrar por ano. Ex: 2020.
+
     Listagem de egresso e posições: [Egressos (nome) | Posição (descrição da posição) | Salário] -> permitir filtrar por intervalo de tempo. Ex: de 2020 à 2022.
+
     Listagem de posições e salários, ordenada por salário: [Posição (descrição da posição), salário] -> permitir filtrar por intervalo de tempo. Ex: de 2020 à 2022.
+    
 5. A qualquer momento, o coordenador por fazer logoff e outro coordenador pode fazer login. As informações apresentadas de curso e egressos devem ser restritas àquele coordenador (ou seja, um coordenador não pode mexer nos dados de outro coordenador)
 
 #### Critérios de avaliação:
@@ -28,8 +31,8 @@ O sistema desenvolvido deve ter as seguintes funcionalidades mínimas:
 * [2,5pt] Emprego de arquivos para salvar e recuperar qualquer informação cadastrada no programa
 * [4,0pt] Implementação das funcionalidades descritas
 * [1,0pt] Código documentado, bem estruturado e escrito
-##### Extra:
+#### Extra:
 * [+1,0pt] Se implementar interface gráfica
 * [+1,0pt] Se gerar os relatórios como PDF
 
-Qualquer erro gerará redução de 0,5pt, no mínimo.
+#### Qualquer erro gerará redução de 0,5pt, no mínimo.
