@@ -8,7 +8,7 @@ Um egresso deve ter um identificador (sugere-se o cpf), nome e data de conclusã
 Já cada egresso fez um curso na UFMA, e este curso além de sua identificação possui um coordenador. Esse coordenador será o usuário responsável por informar todos os dados dos cursos e dos egressos. Assim o sistema terá vários coordenadores, vários cursos e vários egressos para cada curso.
 
 
-O sistema desenvolvido deve ter as seguintes funcionalidades mínimas:
+#### O sistema desenvolvido deve ter as seguintes funcionalidades mínimas:
 
 * 1. Permitir a criação de coordenadores por um administrador fixo no sistema
 * 2. Permitir que o coordenador crie e gerencie um curso
@@ -17,11 +17,11 @@ O sistema desenvolvido deve ter as seguintes funcionalidades mínimas:
     * a) Cadastrar e editar egresso e todas as informações ao redor deste
     * b) Consultar egresso por nome e/ou cpf, e ainda listar qualquer informação cadastrada ao redor deste
     * c) Gerar relatórios (impressos na tela):
-    * * Listagem de egressos por ano, ordenado pelo nome do egresso: [Egressos (nome), Data conclusão do curso] -> permitir filtrar por ano. Ex: 2020.
+    *  Listagem de egressos por ano, ordenado pelo nome do egresso: [Egressos (nome), Data conclusão do curso] -> permitir filtrar por ano. Ex: 2020.
 
-    * * Listagem de egresso e posições: [Egressos (nome) | Posição (descrição da posição) | Salário] -> permitir filtrar por intervalo de tempo. Ex: de 2020 à 2022.
+    * Listagem de egresso e posições: [Egressos (nome) | Posição (descrição da posição) | Salário] -> permitir filtrar por intervalo de tempo. Ex: de 2020 à 2022.
 
-    * * Listagem de posições e salários, ordenada por salário: [Posição (descrição da posição), salário] -> permitir filtrar por intervalo de tempo. Ex: de 2020 à 2022.
+    * Listagem de posições e salários, ordenada por salário: [Posição (descrição da posição), salário] -> permitir filtrar por intervalo de tempo. Ex: de 2020 à 2022.
 
 5. A qualquer momento, o coordenador por fazer logoff e outro coordenador pode fazer login. As informações apresentadas de curso e egressos devem ser restritas àquele coordenador (ou seja, um coordenador não pode mexer nos dados de outro coordenador)
 
